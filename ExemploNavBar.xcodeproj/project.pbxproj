@@ -20,6 +20,8 @@
 		6A1A585C15EF9430003D390E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1A583D15EF942F003D390E /* Foundation.framework */; };
 		6A1A586415EF9430003D390E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1A586215EF9430003D390E /* InfoPlist.strings */; };
 		6A1A586715EF9430003D390E /* ExemploNavBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A586615EF9430003D390E /* ExemploNavBarTests.m */; };
+		6A1A587215EF9724003D390E /* SegundaTelaNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A587115EF9724003D390E /* SegundaTelaNavigation.m */; };
+		6A1A587515EF9B2C003D390E /* TerceiraTelaNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A587415EF9B2B003D390E /* TerceiraTelaNavigation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,10 @@
 		6A1A586315EF9430003D390E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A1A586515EF9430003D390E /* ExemploNavBarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExemploNavBarTests.h; sourceTree = "<group>"; };
 		6A1A586615EF9430003D390E /* ExemploNavBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExemploNavBarTests.m; sourceTree = "<group>"; };
+		6A1A587015EF9724003D390E /* SegundaTelaNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaTelaNavigation.h; sourceTree = "<group>"; };
+		6A1A587115EF9724003D390E /* SegundaTelaNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaTelaNavigation.m; sourceTree = "<group>"; };
+		6A1A587315EF9B2B003D390E /* TerceiraTelaNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerceiraTelaNavigation.h; sourceTree = "<group>"; };
+		6A1A587415EF9B2B003D390E /* TerceiraTelaNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerceiraTelaNavigation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +120,11 @@
 				6A1A584A15EF942F003D390E /* PrincipalAppDelegate.h */,
 				6A1A584B15EF942F003D390E /* PrincipalAppDelegate.m */,
 				6A1A584D15EF942F003D390E /* MainStoryboard.storyboard */,
+				6A1A587015EF9724003D390E /* SegundaTelaNavigation.h */,
+				6A1A587115EF9724003D390E /* SegundaTelaNavigation.m */,
 				6A1A585015EF942F003D390E /* PrincipalViewController.h */,
+				6A1A587315EF9B2B003D390E /* TerceiraTelaNavigation.h */,
+				6A1A587415EF9B2B003D390E /* TerceiraTelaNavigation.m */,
 				6A1A585115EF942F003D390E /* PrincipalViewController.m */,
 				6A1A584215EF942F003D390E /* Supporting Files */,
 			);
@@ -262,6 +272,8 @@
 				6A1A584815EF942F003D390E /* main.m in Sources */,
 				6A1A584C15EF942F003D390E /* PrincipalAppDelegate.m in Sources */,
 				6A1A585215EF942F003D390E /* PrincipalViewController.m in Sources */,
+				6A1A587215EF9724003D390E /* SegundaTelaNavigation.m in Sources */,
+				6A1A587515EF9B2C003D390E /* TerceiraTelaNavigation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
